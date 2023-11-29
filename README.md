@@ -4,7 +4,7 @@
      title="Philosopher’s stone, logo of PostCSS"
      src="https://postcss.org/logo-leftp.svg">
 
-[PostCSS] plugin to add opacity to any colors with [Relative Color Syntax].
+[PostCSS] plugin to add opacity to any color with [Relative Color Syntax].
 
 Upcoming CSS Colors 5 allows to change any color including adding opacity.
 But Firefox still [doesn’t support] this syntax. This tool partially polyfill
