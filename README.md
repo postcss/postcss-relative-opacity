@@ -7,7 +7,7 @@
 [PostCSS] plugin to add opacity to any colors with [Relative Color Syntax].
 
 Upcoming CSS Colors 5 allows to change any color including adding opacity.
-But Firefox still doesn’t support this syntax. This tool partially polyfill
+But Firefox still [doesn’t support] this syntax. This tool partially polyfill
 thi syntax via [`color-mix()`].
 
 ```css
@@ -31,6 +31,7 @@ will be processed to:
 ---
 
 [Relative Color Syntax]: https://www.w3.org/TR/css-color-5/#relative-color
+[doesn’t support]:       https://caniuse.com/css-relative-colors
 [`color-mix()`]:         https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix
 [PostCSS]:               https://github.com/postcss/postcss
 
