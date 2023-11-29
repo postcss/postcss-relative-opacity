@@ -6,7 +6,7 @@
 
 [PostCSS] plugin to add opacity to any colors with [Relative Color Syntax].
 
-Upcoming CSS Colors 5 allows changing any color including adding opacity.
+Upcoming CSS Colors 5 allows you to change any color including adding opacity.
 But Firefox still [doesn’t support] this syntax. This tool partially polyfills
 this syntax via [`color-mix()`].
 
