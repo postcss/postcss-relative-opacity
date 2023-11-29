@@ -24,6 +24,8 @@ will be processed to:
 }
 ```
 
+This polyfill is based on [Adam Argyle idea].
+
 ---
 
 <img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  Made in <b><a href="https://evilmartians.com/devtools?utm_source=NAME&utm_campaign=devtools-button&utm_medium=github">Evil Martians</a></b>, product consulting for <b>developer tools</b>.
@@ -32,6 +34,7 @@ will be processed to:
 
 [Relative Color Syntax]: https://www.w3.org/TR/css-color-5/#relative-color
 [doesn’t support]:       https://caniuse.com/css-relative-colors
+[Adam Argyle idea]:      https://twitter.com/argyleink/status/1633681345607241730?s=20
 [`color-mix()`]:         https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix
 [PostCSS]:               https://github.com/postcss/postcss
 
