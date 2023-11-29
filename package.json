@@ -1,6 +1,6 @@
 {
   "name": "postcss-relative-opacity",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin to add opacity to any colors with Relative Color Syntax",
   "keywords": [
     "postcss",
