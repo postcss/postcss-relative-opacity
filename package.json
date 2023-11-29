@@ -1,0 +1,63 @@
+{
+  "name": "postcss-relative-opacity",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to add opacity to any colors with Relative Color Syntax",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "oklch",
+    "opacity"
+  ],
+  "scripts": {
+    "test:unit": "node --test ./index.test.js",
+    "test:lint": "eslint .",
+    "test": "pnpm run /^test:/"
+  },
+  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "license": "MIT",
+  "repository": "postcss/postcss-postcss-relative-opacity",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "funding": [
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/postcss/"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ai"
+    }
+  ],
+  "peerDependencies": {
+    "postcss": "^8.4.0"
+  },
+  "devDependencies": {
+    "@logux/eslint-config": "^52.0.1",
+    "clean-publish": "^4.2.0",
+    "eslint": "^8.51.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-node-import": "^1.0.4",
+    "eslint-plugin-perfectionist": "^2.1.0",
+    "eslint-plugin-prefer-let": "^3.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "postcss": "^8.4.31"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "jsxSingleQuote": false,
+    "quoteProps": "consistent",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "eslintConfig": {
+    "extends": "@logux/eslint-config"
+  },
+  "clean-publish": {
+    "cleanDocs": true
+  }
+}
