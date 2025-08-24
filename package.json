@@ -16,7 +16,7 @@
   },
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
   "license": "MIT",
-  "repository": "postcss/postcss-postcss-relative-opacity",
+  "repository": "postcss/postcss-relative-opacity",
   "engines": {
     "node": ">=18.0"
   },
